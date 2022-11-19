@@ -1,0 +1,26 @@
+.profile {
+    display: flex;
+    width: 98%;
+    height: 90vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.name {
+    width: 300px;
+}
+
+.email {
+    width: 300px;
+}
+.address {
+    width: 500px;
+}
+.uf{
+    width: 80px;
+}
+.city {
+    width: 500px;
+}

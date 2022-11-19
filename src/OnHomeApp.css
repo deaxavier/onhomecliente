@@ -1,0 +1,8 @@
+.content {
+    display: flex;
+    flex-direction: row;
+}
+.content > .main {
+    padding-left: 20px;
+    width: 100%;
+}

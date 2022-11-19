@@ -1,0 +1,52 @@
+.login {
+    background-image: url("https://www.onhome.com.br/assets/img/cliente-background.jpg");
+    display: flex;
+    height: 100vh;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.login>.box {
+    background-color: #eee;
+    width: 95%;
+    border: 1 solid;
+    border-radius: 10px;
+    box-shadow: 1px 1px;
+    text-align: center;
+    justify-content: center;
+
+}
+
+
+.login>.box>.content {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    height: 70%;
+    justify-content: center;
+}
+
+.login>.box>.footer {
+    display: flex;
+    padding: 16px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+@media (min-width: 480px) {
+    .login>.box {
+        width: 35%;
+        height: 50%;
+    }
+
+
+    .login>.box>.footer {
+        display: flex;
+        padding: 16px;
+        align-items: center;
+        justify-content: center;
+
+    }
+}
